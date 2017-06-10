@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:color="@color/colorAccentPressed"
+    tools:targetApi="lollipop">
+    <item>
+        <selector>
+            <item android:state_enabled="false" android:drawable="@drawable/bt_login_disabled" />
+            <item android:drawable="@drawable/bt_login_raw" /> <!-- default -->
+        </selector>
+    </item>
+    <item android:id="@android:id/mask" android:drawable="@drawable/bt_login_raw_pressed" />
+</ripple>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Full Name:"
+            android:fontFamily="Helvetica"
+            android:id="@+id/textView11"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="Helvetica"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:id="@+id/doctor_fname" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Degree:"
+            android:fontFamily="Helvetica"
+            android:id="@+id/textView12"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="Helvetica"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:id="@+id/doctor_degree" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Speciality"
+            android:fontFamily="Helvetica"
+            android:id="@+id/textView13"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="Helvetica"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:id="@+id/doctor_speciality" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Consulting Hour:"
+            android:fontFamily="Helvetica"
+            android:id="@+id/textView14"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="Helvetica"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:id="@+id/doctor_consulting_hour" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Hospital:"
+            android:fontFamily="Helvetica"
+            android:id="@+id/textView15"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorAccent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:fontFamily="Helvetica"
+            android:textColor="@color/colorPrimaryDark"
+            android:paddingBottom="7dp"
+            android:id="@+id/doctor_hospital" />
+
+</LinearLayout>
+        </ScrollView>

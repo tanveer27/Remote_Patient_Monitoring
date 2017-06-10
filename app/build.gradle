@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion '25'
+    defaultConfig {
+        applicationId 'com.mmtechbd.remotehealthmonitor'
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 4
+        versionName "2.1"
+        vectorDrawables.useSupportLibrary true
+        buildConfigField 'String', "CLIENT_ID", CLIENT_ID
+        buildConfigField 'String', "CLIENT_SECRET", CLIENT_SECRET
+        buildConfigField 'String', "REDIRECT_URL", REDIRECT_URL
+        buildConfigField 'String', "API_NAME", API_NAME
+        buildConfigField 'String', "SC", SC
+        buildConfigField 'String', "SV_SPO2", SV_SPO2
+        buildConfigField 'String', "SV_BP", SV_BP
+        buildConfigField 'String', "SV_BG", SV_BG
+        buildConfigField 'String', "SV_WEIGHT", SV_WEIGHT
+        buildConfigField 'String', "SV_ACTIVITY", SV_ACTIVITY
+        buildConfigField 'String', "ROOT_URL", ROOT_URL
+        buildConfigField 'String', "WITHINGS_CONSUMER_SECRET", WITHINGS_CONSUMER_SECRET
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:23.4.0'
+    compile 'com.android.support:design:23.4.0'
+    compile 'com.android.support:support-v4:23.4.0'
+    testCompile 'junit:junit:4.12'
+}

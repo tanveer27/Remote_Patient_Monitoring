@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#263238</color>
+    <color name="colorPrimaryDark">#002a30</color>
+    <color name="colorAccent">#00796b</color>
+    <color name="windowBackgroundLaunchActivity">#4dd0e1</color>
+    <color name="colorAccentPressed">#004d40</color>
+    <color name="text_bt_login">#ffffff</color>
+    <color name="tabBackground">#cfd8dc</color>
+    <color name="bg_user">#eeeeee</color>
+    <color name="bg_consult">#aff50004</color>
+    <color name="bg_logo">#fd0202</color>
+</resources>
